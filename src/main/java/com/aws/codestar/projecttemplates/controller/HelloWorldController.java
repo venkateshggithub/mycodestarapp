@@ -26,7 +26,7 @@ public class HelloWorldController {
     }
 
     @RequestMapping(method = RequestMethod.GET, value="hello")
-    public ModelAndView helloWorld() {
+    public ModelAndView hellonewWorld() {
         ModelAndView mav = new ModelAndView("hello");
         return mav;
     }
