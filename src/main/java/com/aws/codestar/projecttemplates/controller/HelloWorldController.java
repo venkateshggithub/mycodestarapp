@@ -25,4 +25,10 @@ public class HelloWorldController {
         return mav;
     }
 
+    @RequestMapping(method = RequestMethod.GET, value="hello")
+    public ModelAndView helloWorld() {
+        ModelAndView mav = new ModelAndView("hello");
+        return mav;
+    }
+
 }
